@@ -1,0 +1,71 @@
+<?php
+
+// Last Reviewed 14/11/2020
+
+return [
+	'@PSR2' => true,
+	'array_indentation' => true,
+	'array_syntax' => ['syntax' => 'short'],
+	'binary_operator_spaces' => [
+		'align_double_arrow' => false,
+		'align_equals' => false,
+	],
+	'blank_line_before_statement' => [
+		'statements' => ['break', 'continue', 'declare', 'return', 'throw', 'try'],
+	],
+	'braces' => [
+		'allow_single_line_closure' => true,
+	],
+	'class_attributes_separation' => [
+		'elements' => [
+			'method',
+		],
+	],
+	'combine_consecutive_unsets' => true,
+	'concat_space' => ['spacing' => 'none'],
+	'declare_equal_normalize' => true,
+	'function_declaration' => true,
+	'function_typehint_space' => true,
+	'hash_to_slash_comment' => true,
+	'include' => true,
+	'indentation_type' => true,
+	'lowercase_cast' => true,
+	'method_separation' => true,
+	'method_argument_space' => [
+		'on_multiline' => 'ensure_fully_multiline',
+		'keep_multiple_spaces_after_comma' => true,
+	],
+	'no_multiline_whitespace_before_semicolons' => true,
+	'no_extra_consecutive_blank_lines' => [
+		'curly_brace_block',
+		'extra',
+		'parenthesis_brace_block',
+		'square_brace_block',
+		'throw',
+		'use',
+	],
+	'no_multiline_whitespace_around_double_arrow' => true,
+	'no_spaces_around_offset' => true,
+	'no_unused_imports' => true,
+	'no_whitespace_before_comma_in_array' => true,
+	'no_whitespace_in_blank_line' => true,
+	'no_spaces_after_function_name' => true,
+	'no_spaces_inside_parenthesis' => true,
+	'not_operator_with_successor_space' => true,
+	'object_operator_without_whitespace' => true,
+	'ordered_imports' => ['sort_algorithm' => 'alpha'],
+	'phpdoc_order' => false,
+	'phpdoc_scalar' => true,
+	'phpdoc_single_line_var_spacing' => true,
+	'phpdoc_summary' => true,
+	'phpdoc_var_without_name' => true,
+	'return_type_declaration' => ['space_before' => 'one'],
+	'single_quote' => true,
+	'single_blank_line_before_namespace' => true,
+	'single_trait_insert_per_statement' => true,
+	'ternary_operator_spaces' => true,
+	'trailing_comma_in_multiline_array' => true,
+	'trim_array_spaces' => true,
+	'unary_operator_spaces' => true,
+	'whitespace_after_comma_in_array' => true,
+];
